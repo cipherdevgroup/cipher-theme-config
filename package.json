@@ -1,0 +1,63 @@
+{
+  "name": "sitecare-theme-config",
+  "version": "0.1.0",
+  "description": "WP Site Care's default Grunt configuration for WordPress themes.",
+  "main": "index.js",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Brady Vercher",
+      "url": "http://www.cedaro.com/"
+    },
+    {
+      "name": "Robert Neu",
+      "url": "http://www.wpsitecare.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wpsitecare/sitecare-theme-config.git"
+  },
+  "devDependencies": {
+    "grunt-jscs": "~1.6",
+    "grunt-contrib-jshint": "~0.11"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4",
+    "grunt-autoprefixer": "~3.0",
+    "grunt-banner": "~0.3",
+    "grunt-bower-install-task": "0.0.4",
+    "grunt-bump": "~0.3",
+    "grunt-checktextdomain": "~1.0",
+    "grunt-complexity": "~0.3",
+    "grunt-composer": "~0.4",
+    "grunt-contrib-clean": "~0.6",
+    "grunt-contrib-concat": "~0.5",
+    "grunt-contrib-compress": "~0.13",
+    "grunt-contrib-copy": "~0.8",
+    "grunt-contrib-cssmin": "~0.12",
+    "grunt-contrib-imagemin": "~0.9",
+    "grunt-contrib-jshint": "~0.11",
+    "grunt-contrib-uglify": "~0.9",
+    "grunt-contrib-watch": "~0.6",
+    "grunt-cssjanus": "~0.2",
+    "grunt-githooks": "~0.3",
+    "grunt-jsbeautifier": "~0.2",
+    "grunt-jscs": "~1.6",
+    "grunt-jsonlint": "~1.0",
+    "grunt-jsvalidate": "~0.2",
+    "grunt-mkdir": "~0.1",
+    "grunt-newer": "~1.1",
+    "grunt-potomo": "~3.2",
+    "grunt-replace": "~0.8",
+    "grunt-sass": "~0.18",
+    "grunt-scss-lint": "~0.3",
+    "grunt-webfont": "~0.5",
+    "grunt-wp-css": "~0.2",
+    "grunt-wp-i18n": "~0.5",
+    "load-grunt-config": "~0.16",
+    "node-neat": "1.7.1-beta1",
+    "semver": "~4.3",
+    "time-grunt": "~1.1"
+  }
+}
