@@ -55,7 +55,6 @@
     "grunt-webfont": "~0.5",
     "grunt-wp-css": "~0.2",
     "grunt-wp-i18n": "~0.5",
-    "load-grunt-config": "~0.16",
     "node-neat": "1.7.1-beta1",
     "semver": "~4.3",
     "time-grunt": "~1.1"
