@@ -3,6 +3,9 @@ module.exports = {
 	theme: {
 		options: {
 			domainPath: '<%= paths.languages %>',
+			exclude: [
+				'<%= paths.composer %>.*'
+			],
 			potHeaders: {
 				poedit: true,
 				'report-msgid-bugs-to': '<%= pkg.pot.reportmsgidbugsto %>',
