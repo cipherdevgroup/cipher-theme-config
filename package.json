@@ -57,6 +57,6 @@
     "grunt-wp-i18n": "~0.5",
     "node-neat": "1.7.1-beta1",
     "semver": "4.3.4",
-    "time-grunt": "~1.1"
+    "time-grunt": "~1.2"
   }
 }
