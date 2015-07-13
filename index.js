@@ -12,7 +12,6 @@ module.exports = function() {
 			dist:         'dist/',
 			docs:         'docs/',
 			languages:    'languages/',
-			logs:         'logs/',
 			tmp:          'tmp/',
 			authorAssets: 'assets/theme/',
 			bower:        'assets/bower/',
@@ -28,9 +27,7 @@ module.exports = function() {
 		},
 		taskMap: {
 			addtextdomain: 'grunt-wp-i18n',
-			bower_install: 'grunt-bower-install-task',
 			makepot:       'grunt-wp-i18n',
-			scsslint:      'grunt-scss-lint',
 			usebanner:     'grunt-banner',
 			wpcss:         'grunt-wp-css'
 		}

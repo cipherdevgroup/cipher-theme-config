@@ -24,6 +24,6 @@ module.exports = {
 			'<%= paths.tmp %>icons/**/*.svg'
 		],
 		dest: 'fonts/',
-		destCss: '<%= paths.authorAssets %>scss/generated'
+		destCss: '<%= paths.authorAssets %>scss/generated/'
 	}
 };

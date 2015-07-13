@@ -4,9 +4,9 @@ module.exports = {
 		files: [
 			{
 				expand: true,
-				cwd: '<%= paths.authorAssets %>images',
+				cwd: '<%= paths.authorAssets %>images/',
 				src: ['*.*'],
-				dest: '<%= paths.tmp %>images'
+				dest: '<%= paths.tmp %>images/'
 			}
 		]
 	},
@@ -14,15 +14,15 @@ module.exports = {
 		files: [
 			{
 				expand: true,
-				cwd: '<%= paths.authorAssets %>icons',
+				cwd: '<%= paths.authorAssets %>icons/',
 				src: ['**/*.*'],
-				dest: '<%= paths.tmp %>icons'
+				dest: '<%= paths.tmp %>icons/'
 			},
 			{
 				expand: true,
-				cwd: '<%= paths.bower %>icons',
+				cwd: '<%= paths.bower %>icons/',
 				src: ['**/*.svg'],
-				dest: '<%= paths.tmp %>icons'
+				dest: '<%= paths.tmp %>icons/'
 			}
 		]
 	}

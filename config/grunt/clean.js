@@ -7,7 +7,7 @@ module.exports = {
 	},
 	bowercomponents: {
 		src: [
-			'bower_components'
+			'bower_components/'
 		]
 	},
 	composer: {
@@ -17,7 +17,7 @@ module.exports = {
 	},
 	css: {
 		src: [
-			'css'
+			'css/'
 		]
 	},
 	dist: {
@@ -32,7 +32,7 @@ module.exports = {
 	},
 	fonts: {
 		src: [
-			'fonts',
+			'fonts/',
 			'<%= paths.tmp %>icons'
 		]
 	},
@@ -44,7 +44,7 @@ module.exports = {
 	},
 	logs: {
 		src: [
-			'<%= paths.logs %>'
+			'logs/'
 		]
 	},
 	tmp: {
@@ -54,17 +54,17 @@ module.exports = {
 	},
 	js: {
 		src: [
-			'js'
+			'js/'
 		]
 	},
 	images: {
 		src: [
-			'images'
+			'images/'
 		]
 	},
 	languages: {
 		src: [
-			'languages'
+			'languages/'
 		]
 	},
 	style: {
@@ -78,5 +78,4 @@ module.exports = {
 			'screenshot.png'
 		]
 	}
-
 };

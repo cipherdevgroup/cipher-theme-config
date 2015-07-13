@@ -1,9 +1,9 @@
 module.exports = function() {
 	'use strict';
 	var tasks = {
-		build: [
+		'build': [
 			'clean',
-			'bower_install',
+			'shell:bower',
 			'build:dependencies:php',
 			'build:fonts',
 			'build:css',
@@ -30,22 +30,10 @@ module.exports = function() {
 			'makepot',
 			'newer:copy:languages'
 		],
-		check: [
-			'scsslint',
-			'jshint',
-			'jsonlint',
-			'jsvalidate',
-			'jscs',
-			'checktextdomain',
-			'complexity'
-		],
-		commit: [
-			'check'
-		],
 		'default': [
 			'watch'
 		],
-		newtheme: [
+		'newtheme': [
 			'replace:packagename',
 			'readpkg',
 			'build'

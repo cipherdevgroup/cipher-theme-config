@@ -12,15 +12,18 @@ module.exports = {
 			'!*.min.css'
 		],
 		dest: '<%= paths.tmp %>',
-		ext: '.min.css'
+		ext: '.min.css',
+		extDot: 'last'
 	},
 	vendor: {
 		expand: true,
 		cwd: 'css/',
 		src: [
-			'*.css'
+			'*.css',
+			'!*.min.css'
 		],
 		dest: 'css/',
-		ext: '.min.css'
+		ext: '.min.css',
+		extDot: 'last'
 	}
 };
