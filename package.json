@@ -23,7 +23,6 @@
     "grunt": "~0.4",
     "grunt-banner": "~0.4",
     "grunt-checktextdomain": "~1.0",
-    "grunt-composer": "~0.4",
     "grunt-contrib-clean": "~0.6",
     "grunt-contrib-concat": "~0.5",
     "grunt-contrib-compress": "~0.13",
