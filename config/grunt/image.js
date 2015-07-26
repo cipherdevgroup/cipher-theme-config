@@ -1,4 +1,4 @@
-// https://github.com/gruntjs/grunt-contrib-imagemin
+// https://github.com/1000ch/grunt-image
 module.exports = {
 	images: {
 		files: [
