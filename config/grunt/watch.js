@@ -20,6 +20,12 @@ module.exports = {
 			'webfont'
 		]
 	},
+	php: {
+		files: [
+			'<%= files.php %>'
+		],
+		tasks: []
+	},
 	scss: {
 		files: [
 			'<%= files.scss %>'
