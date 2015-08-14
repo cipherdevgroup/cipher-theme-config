@@ -5,7 +5,7 @@ module.exports = {
 			{
 				expand: true,
 				cwd: '<%= paths.authorAssets %>images/',
-				src: ['*.*'],
+				src: [ '*.*' ],
 				dest: '<%= paths.tmp %>images/'
 			}
 		]
@@ -15,13 +15,13 @@ module.exports = {
 			{
 				expand: true,
 				cwd: '<%= paths.authorAssets %>icons/',
-				src: ['**/*.*'],
+				src: [ '**/*.*' ],
 				dest: '<%= paths.tmp %>icons/'
 			},
 			{
 				expand: true,
 				cwd: '<%= paths.bower %>icons/',
-				src: ['**/*.svg'],
+				src: [ '**/*.svg' ],
 				dest: '<%= paths.tmp %>icons/'
 			}
 		]

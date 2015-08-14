@@ -5,7 +5,7 @@ module.exports = {
 			{
 				expand: true,
 				cwd: '<%= paths.assets %><%= paths.languages %>',
-				src: ['*.po'],
+				src: [ '*.po' ],
 				dest: '<%= paths.theme%><%= paths.languages %>',
 				ext: '.mo',
 				nonull: true,

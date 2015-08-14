@@ -2,7 +2,7 @@
 module.exports = {
 	options: {
 		textdomain: '<%= pkg.theme.textdomain %>',
-		updateDomains: ['all']
+		updateDomains: [ 'all' ]
 	},
 	php: {
 		files: {
