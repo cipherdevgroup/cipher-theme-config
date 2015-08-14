@@ -1,3 +1,9 @@
+## 0.2.1
+
+- Watched PHP files by default; mainly for LiveReload
+- Replaced grunt-composer with a grunt-shell command
+- Bumped to latest version of all PeerDependencies
+
 ## 0.2.0
 
 - Removed unused dependencies
