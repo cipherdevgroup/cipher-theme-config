@@ -17,7 +17,6 @@ module.exports = function() {
 			bower:        'assets/bower/',
 			composer:     'assets/composer/',
 			grunt:        'config/grunt/',
-			hybridCore:   'hybrid-core/',
 			tasks:        'config/grunt/tasks/',
 			global: {
 				config: path.join( __dirname, 'config/' ),

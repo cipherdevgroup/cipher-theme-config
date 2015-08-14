@@ -38,7 +38,6 @@ module.exports = {
 	},
 	php: {
 		src: [
-			'<%= paths.hybridCore %>',
 			'includes/vendor/'
 		]
 	},
