@@ -22,8 +22,7 @@ module.exports = {
 	files: {
 		expand: true,
 		src: [
-			'<%= files.php %>',
-			'!<%= paths.hybridCore %>**'
+			'<%= files.php %>'
 		]
 	}
 };

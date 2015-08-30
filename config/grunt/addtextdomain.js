@@ -7,8 +7,7 @@ module.exports = {
 	php: {
 		files: {
 			src: [
-				'<%= files.php %>',
-				'!<%= paths.hybridCore %>**'
+				'<%= files.php %>'
 			]
 		}
 	}
