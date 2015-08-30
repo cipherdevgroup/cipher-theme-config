@@ -1,3 +1,9 @@
+## 0.2.2
+
+- Bumped to latest version of all PeerDependencies
+- Relaxed versions for all PeerDependencies
+- (bugfix) Removed an undefined path to Hybrid Core leftover from previous versions
+
 ## 0.2.1
 
 - Watched PHP files by default; mainly for LiveReload
