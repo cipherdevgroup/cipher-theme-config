@@ -19,7 +19,7 @@
     "url": "https://github.com/wpsitecare/sitecare-theme-config.git"
   },
   "dependencies": {
-    "autoprefixer-core": "5.x",
+    "autoprefixer-core": "6.x",
     "grunt": "~0.x",
     "grunt-banner": "0.x",
     "grunt-checktextdomain": "1.x",
