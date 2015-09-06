@@ -1,5 +1,5 @@
 // https://github.com/nDmitry/grunt-postcss
-var autoprefixer = require('autoprefixer-core');
+var autoprefixer = require('autoprefixer');
 
 module.exports = {
 	options: {
