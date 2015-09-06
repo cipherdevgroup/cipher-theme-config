@@ -1,3 +1,7 @@
+## 1.0.0
+
+- Changed peerDependencies to standard dependencies. This breaks compatibility with npm2 and older
+
 ## 0.2.2
 
 - Bumped to latest version of all PeerDependencies
