@@ -1,6 +1,6 @@
 {
   "name": "sitecare-theme-config",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "description": "WP Site Care's default Grunt configuration for WordPress themes.",
   "main": "index.js",
   "license": "MIT",
