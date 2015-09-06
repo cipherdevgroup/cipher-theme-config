@@ -1,6 +1,7 @@
 ## 1.0.0
 
 - Changed peerDependencies to standard dependencies. This breaks compatibility with npm2 and older
+- Bumped autoprefixer to the latest version
 
 ## 0.2.2
 
