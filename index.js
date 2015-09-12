@@ -3,33 +3,33 @@ module.exports = function() {
 	'use strict';
 
 	var path = require( 'path' ),
-		project = null;
+		project = {};
 
-	project = {
-		paths: {
-			config:       'config/',
-			assets:       'assets/',
-			dist:         'dist/',
-			docs:         'docs/',
-			languages:    'languages/',
-			tmp:          'tmp/',
-			authorAssets: 'assets/theme/',
-			bower:        'assets/bower/',
-			composer:     'assets/composer/',
-			grunt:        'config/grunt/',
-			tasks:        'tasks/',
-			global: {
-				config: path.join( __dirname, 'config/' ),
-				grunt:  path.join( __dirname, 'config/grunt/' ),
-				tasks:  path.join( __dirname, 'tasks/' )
-			}
-		},
-		taskMap: {
-			addtextdomain: 'grunt-wp-i18n',
-			makepot:       'grunt-wp-i18n',
-			usebanner:     'grunt-banner',
-			wpcss:         'grunt-wp-css'
-		}
+	project.paths = {
+		config:       'config/',
+		assets:       'assets/',
+		dist:         'dist/',
+		docs:         'docs/',
+		languages:    'languages/',
+		tmp:          'tmp/',
+		authorAssets: 'assets/theme/',
+		bower:        'assets/bower/',
+		composer:     'assets/composer/',
+		grunt:        'config/grunt/',
+		tasks:        'tasks/'
+	};
+
+	project.paths.global = {
+		config: path.join( __dirname, 'config/' ),
+		grunt:  path.join( __dirname, 'config/grunt/' ),
+		tasks:  path.join( __dirname, 'tasks/' )
+	};
+
+	project.taskMap = {
+		addtextdomain: 'grunt-wp-i18n',
+		makepot:       'grunt-wp-i18n',
+		usebanner:     'grunt-banner',
+		wpcss:         'grunt-wp-css'
 	};
 
 	project.files = {
@@ -37,25 +37,26 @@ module.exports = function() {
 		scss:   project.paths.authorAssets + 'scss/**/*.scss',
 		icons:  project.paths.authorAssets + 'icons/**/*.svg',
 		config: project.paths.config       + '**/*.js',
-		php: [
-			'*.php',
-			'**/*.php',
-			'!.git/**',
-			'!.sass-cache/**',
-			'!assets/**',
-			'!css/**',
-			'!dist/**',
-			'!fonts/**',
-			'!images/**',
-			'!js/**',
-			'!languages/**',
-			'!logs/**',
-			'!bower_components/**',
-			'!node_modules/**',
-			'!tmp/**'
-		],
 		changelog: 'CHANGELOG.md'
 	};
+
+	project.files.php = [
+		'*.php',
+		'**/*.php',
+		'!.git/**',
+		'!.sass-cache/**',
+		'!assets/**',
+		'!css/**',
+		'!dist/**',
+		'!fonts/**',
+		'!images/**',
+		'!js/**',
+		'!languages/**',
+		'!logs/**',
+		'!bower_components/**',
+		'!node_modules/**',
+		'!tmp/**'
+	];
 
 	return project;
 };
