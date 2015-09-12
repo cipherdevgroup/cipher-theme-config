@@ -17,11 +17,11 @@ module.exports = function() {
 			bower:        'assets/bower/',
 			composer:     'assets/composer/',
 			grunt:        'config/grunt/',
-			tasks:        'config/grunt/tasks/',
+			tasks:        'tasks/',
 			global: {
 				config: path.join( __dirname, 'config/' ),
 				grunt:  path.join( __dirname, 'config/grunt/' ),
-				tasks:  path.join( __dirname, 'config/grunt/tasks/' )
+				tasks:  path.join( __dirname, 'tasks/' )
 			}
 		},
 		taskMap: {
