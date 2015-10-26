@@ -39,7 +39,7 @@
     "grunt-rtlcss": "1.x",
     "grunt-sass": "1.x",
     "grunt-shell": "1.x",
-    "grunt-webfont": "0.x",
+    "grunt-webfont": "1.x",
     "grunt-wp-css": "0.x",
     "grunt-wp-i18n": "0.x",
     "node-neat": "1.x",
