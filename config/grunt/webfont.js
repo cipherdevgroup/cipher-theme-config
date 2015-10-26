@@ -8,7 +8,7 @@ module.exports = {
 		htmlDemoTemplate: '<%= paths.authorAssets %>templates/demo.html',
 		ligatures: false,
 		normalize: true,
-		embed: true,
+		embed: false,
 		font: 'siteicons',
 		types: 'eot,woff,ttf,svg',
 		engine: 'node',
