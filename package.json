@@ -28,7 +28,7 @@
     "grunt-contrib-compress": "0.x",
     "grunt-contrib-copy": "0.x",
     "grunt-contrib-cssmin": "0.x",
-    "grunt-contrib-imagemin": "0.x",
+    "grunt-contrib-imagemin": "1.x",
     "grunt-contrib-uglify": "0.x",
     "grunt-contrib-watch": "0.x",
     "grunt-jsbeautifier": "0.x",
