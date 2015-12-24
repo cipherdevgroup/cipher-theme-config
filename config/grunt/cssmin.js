@@ -1,9 +1,5 @@
 // https://github.com/gruntjs/grunt-contrib-cssmin
 module.exports = {
-	options: {
-		report: 'gzip',
-		sourceMap: false
-	},
 	style: {
 		expand: true,
 		cwd: '<%= paths.tmp %>',
