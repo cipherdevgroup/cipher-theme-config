@@ -5,7 +5,8 @@ module.exports = {
 			swapLeftRightInUrl: false,
 			swapLtrRtlInUrl: false,
 			autoRename: false,
-			preserveDirectives: true
+			preserveDirectives: true,
+			map: true
 		},
 		files: [
 			{

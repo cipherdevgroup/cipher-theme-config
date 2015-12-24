@@ -2,8 +2,7 @@
 module.exports = {
 	options: {
 		includePaths: require( 'node-neat' ).includePaths,
-		sourceMap: false,
-		lineNumbers: false,
+		sourceMap: true,
 		outputStyle: 'expanded'
 	},
 	theme: {

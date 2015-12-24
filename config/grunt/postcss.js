@@ -15,7 +15,7 @@ module.exports = {
 				]
 			})
 		],
-		map: false
+		map: true
 	},
 	theme: {
 		src: '<%= paths.tmp %>style.css',
