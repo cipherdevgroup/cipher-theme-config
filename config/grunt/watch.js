@@ -32,7 +32,6 @@ module.exports = {
 		],
 		tasks: [
 			'sass:theme',
-			'usebanner:theme',
 			'postcss',
 			'wpcss:css',
 			'rtlcss',

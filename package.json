@@ -21,7 +21,6 @@
   "dependencies": {
     "autoprefixer": "6.x",
     "grunt": "~0.x",
-    "grunt-banner": "0.x",
     "grunt-checktextdomain": "1.x",
     "grunt-contrib-clean": "0.x",
     "grunt-contrib-concat": "0.x",
