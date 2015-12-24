@@ -33,7 +33,7 @@ module.exports = {
 		tasks: [
 			'sass:theme',
 			'postcss',
-			'wpcss:css',
+			//'wpcss:css',
 			'rtlcss',
 			'cssmin:style',
 			'replace:style',
