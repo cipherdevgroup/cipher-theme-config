@@ -20,12 +20,12 @@
   },
   "dependencies": {
     "autoprefixer": "6.x",
-    "cssnano": "3.x",
     "grunt": "~0.x",
     "grunt-contrib-clean": "0.x",
-    "grunt-contrib-compress": "0.x",
     "grunt-contrib-concat": "0.x",
+    "grunt-contrib-compress": "0.x",
     "grunt-contrib-copy": "0.x",
+    "grunt-contrib-cssmin": "0.x",
     "grunt-contrib-imagemin": "1.x",
     "grunt-contrib-uglify": "0.x",
     "grunt-contrib-watch": "0.x",
@@ -41,7 +41,6 @@
     "grunt-wp-css": "0.x",
     "grunt-wp-i18n": "0.x",
     "node-neat": "1.x",
-    "pixrem": "3.x",
     "time-grunt": "1.x"
   }
 }
