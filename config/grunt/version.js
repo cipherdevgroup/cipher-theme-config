@@ -1,18 +1,15 @@
 // https://github.com/kswedberg/grunt-version
 module.exports = {
-	packageJSON: {
-		options: {
-			files: [
-				'package.json'
-			]
-		}
+	project: {
+		src: [
+			'package.json',
+			'bower.json'
+		]
 	},
 	style: {
-		options: {
-			prefix: '\\s+\\*\\s+Version:\\s+',
-			files: [
-				'<%= paths.authorAssets %>scss/style.scss'
-			]
-		}
+		prefix: '\\s+\\*\\s+Version:\\s+',
+		src: [
+			'<%= paths.authorAssets %>scss/style.scss'
+		]
 	}
 };
