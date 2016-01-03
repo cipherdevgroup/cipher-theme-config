@@ -35,7 +35,6 @@ module.exports = {
 			'postcss:style',
 			'rtlcss:style',
 			'cssmin:theme',
-			'replace:style',
 			'copy:css'
 		]
 	}
