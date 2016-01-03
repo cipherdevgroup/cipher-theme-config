@@ -31,9 +31,9 @@ module.exports = {
 			'<%= files.scss %>'
 		],
 		tasks: [
-			'sass:theme',
-			'postcss',
-			'rtlcss',
+			'sass:style',
+			'postcss:style',
+			'rtlcss:style',
 			'cssmin:style',
 			'replace:style',
 			'copy:css'

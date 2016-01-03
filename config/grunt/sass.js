@@ -5,7 +5,7 @@ module.exports = {
 		sourceMap: true,
 		outputStyle: 'expanded'
 	},
-	theme: {
+	style: {
 		files: [
 			{
 				expand: true,

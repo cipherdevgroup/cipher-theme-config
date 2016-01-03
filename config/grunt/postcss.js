@@ -19,7 +19,7 @@ module.exports = {
 			})
 		]
 	},
-	theme: {
+	style: {
 		src: '<%= paths.tmp %>style.css',
 		dest: '<%= paths.tmp %>style.css'
 	}
