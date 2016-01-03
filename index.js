@@ -28,8 +28,7 @@ module.exports = function() {
 	project.taskMap = {
 		addtextdomain: 'grunt-wp-i18n',
 		readpkg:       'sitecare-theme-config',
-		makepot:       'grunt-wp-i18n',
-		wpcss:         'grunt-wp-css'
+		makepot:       'grunt-wp-i18n'
 	};
 
 	project.files = {
