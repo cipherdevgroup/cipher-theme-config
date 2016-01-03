@@ -1,3 +1,19 @@
+## 2.0.0
+
+This is a pretty large update. Some features have been removed and a few new ones have been added. There are a couple breaking changes in this update, so any themes using an older version of the config will need to be adjusted. Check out [Alpha](https://github.com/wpsitecare/alpha) for a working example of how to implement the config. Here's a breakdown of the changes:
+
+- Removed grunt-banner
+- Removed grunt-checktextdomain
+- Removed grunt-webfont
+- Removed grunt-wp-css
+- Added support for Sass source maps
+- Made task names more consistent
+- Added grunt-version
+- Added postcss-pxtorem
+- Simplified the default Sass config
+- Removed unused tasks
+- Added some simple release tasks using grunt-version
+
 ## 1.0.0
 
 - Changed peerDependencies to standard dependencies. This breaks compatibility with npm2 and older
