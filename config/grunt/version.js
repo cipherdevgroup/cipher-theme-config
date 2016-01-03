@@ -7,7 +7,9 @@ module.exports = {
 		]
 	},
 	style: {
-		prefix: '\\s+\\*\\s+Version:\\s+',
+		options: {
+			prefix: '\\s+\\*\\s+Version:\\s+'
+		},
 		src: [
 			'<%= paths.authorAssets %>scss/style.scss'
 		]
