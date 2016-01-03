@@ -34,7 +34,7 @@ module.exports = {
 			'sass:style',
 			'postcss:style',
 			'rtlcss:style',
-			'cssmin:style',
+			'cssmin:theme',
 			'replace:style',
 			'copy:css'
 		]
