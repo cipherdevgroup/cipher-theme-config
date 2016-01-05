@@ -16,8 +16,7 @@ module.exports = {
 			'<%= files.icons %>'
 		],
 		tasks: [
-			'newer:imagemin:icons',
-			'webfont'
+			'newer:imagemin:icons'
 		]
 	},
 	php: {
