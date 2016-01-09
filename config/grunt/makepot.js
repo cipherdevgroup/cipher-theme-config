@@ -8,9 +8,9 @@ module.exports = {
 			],
 			potHeaders: {
 				poedit: true,
-				'report-msgid-bugs-to': '<%= pkg.pot.reportmsgidbugsto %>',
-				'last-translator': '<%= pkg.pot.lasttranslator %>',
-				'language-team': '<%= pkg.pot.languageteam %>'
+				'report-msgid-bugs-to': '<%= package.pot.reportmsgidbugsto %>',
+				'last-translator': '<%= package.pot.lasttranslator %>',
+				'language-team': '<%= package.pot.languageteam %>'
 			},
 			type: 'wp-theme'
 		}

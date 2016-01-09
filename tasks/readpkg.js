@@ -3,6 +3,6 @@ module.exports = function( grunt ) {
 	'use strict';
 
 	grunt.registerTask( 'readpkg', function() {
-		grunt.config.set( 'pkg', grunt.file.readJSON( './package.json' ) );
+		grunt.config.set( 'package', grunt.file.readJSON( './package.json' ) );
 	});
 };
