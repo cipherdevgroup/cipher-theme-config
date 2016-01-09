@@ -1,7 +1,7 @@
 // https://github.com/kswedberg/grunt-version
 module.exports = {
 	options: {
-		package: {
+		pkg: {
 			version: '<%= package.version %>'
 		}
 	},
