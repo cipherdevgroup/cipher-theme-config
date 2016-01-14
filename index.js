@@ -27,12 +27,12 @@ module.exports = function() {
 
 	project.taskMap = {
 		addtextdomain: 'grunt-wp-i18n',
-		readpkg:       'sitecare-theme-config',
-		makepot:       'grunt-wp-i18n'
+		makepot:       'grunt-wp-i18n',
+		readpkg:       'sitecare-theme-config'
 	};
 
 	project.files = {
-		js:     project.paths.assets       + '{,*/}js/*.js',
+		js:     project.paths.assets       + 'js/**/*.js',
 		scss:   project.paths.authorAssets + 'scss/**/*.scss',
 		icons:  project.paths.authorAssets + 'icons/**/*.svg',
 		config: project.paths.config       + '**/*.js',
