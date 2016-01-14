@@ -5,24 +5,8 @@ module.exports = {
 			{
 				expand: true,
 				cwd: '<%= paths.authorAssets %>images/',
-				src: [ '*.*' ],
+				src: [ '**/*.{png,jpg,jpeg,gif,svg}' ],
 				dest: '<%= paths.tmp %>images/'
-			}
-		]
-	},
-	icons: {
-		files: [
-			{
-				expand: true,
-				cwd: '<%= paths.authorAssets %>icons/',
-				src: [ '**/*.*' ],
-				dest: '<%= paths.tmp %>icons/'
-			},
-			{
-				expand: true,
-				cwd: '<%= paths.bower %>icons/',
-				src: [ '**/*.svg' ],
-				dest: '<%= paths.tmp %>icons/'
 			}
 		]
 	}
