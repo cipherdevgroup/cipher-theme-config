@@ -32,8 +32,7 @@ module.exports = {
 	},
 	fonts: {
 		src: [
-			'fonts/',
-			'<%= paths.tmp %>icons'
+			'fonts/'
 		]
 	},
 	php: {
