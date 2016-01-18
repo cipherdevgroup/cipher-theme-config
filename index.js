@@ -34,7 +34,6 @@ module.exports = function() {
 	project.files = {
 		js:     project.paths.assets       + 'js/**/*.js',
 		scss:   project.paths.authorAssets + 'scss/**/*.scss',
-		icons:  project.paths.authorAssets + 'icons/**/*.svg',
 		config: project.paths.config       + '**/*.js',
 		changelog: 'CHANGELOG.md'
 	};
