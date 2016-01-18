@@ -11,6 +11,14 @@ module.exports = {
 			'bower.json'
 		]
 	},
+	functions: {
+		options: {
+			prefix: 'THEME_VERSION\'\,\\s+\''
+		},
+		src: [
+			'functions.php'
+		]
+	},
 	style: {
 		options: {
 			prefix: '\\s+\\*\\s+Version:\\s+'
