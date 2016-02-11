@@ -6,8 +6,8 @@ module.exports = {
 	options: {
 		map: true,
 		processors: [
-			pxtorem({
-				rootValue: 16,
+			pxtorem( {
+				rootValue: 10,
 				propWhiteList: [
 					'font',
 					'font-size',
@@ -25,12 +25,11 @@ module.exports = {
 					'padding-bottom'
 				],
 				selectorBlackList: [
-					'html',
-					'body'
+					'html'
 				],
 				minPixelValue: 2
-			}),
-			autoprefixer({
+			} ),
+			autoprefixer( {
 				browsers: [
 					'Android >= 2.1',
 					'Chrome >= 21',
@@ -39,7 +38,7 @@ module.exports = {
 					'Opera >= 12.1',
 					'Safari >= 6.0'
 				]
-			})
+			} )
 		]
 	},
 	style: {
