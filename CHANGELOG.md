@@ -1,3 +1,8 @@
+## 2.1.0
+
+- Bumped Grunt and other dependencies to the latest version
+- Changed the default root value for pxtorem to 10px
+
 ## 2.0.0
 
 This is a pretty large update. Some features have been removed and a few new ones have been added. There are a couple breaking changes in this update, so any themes using an older version of the config will need to be adjusted. Check out [Alpha](https://github.com/wpsitecare/alpha) for a working example of how to implement the config. Here's a breakdown of the changes:
