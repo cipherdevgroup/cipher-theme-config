@@ -7,17 +7,23 @@ module.exports = function() {
 			'shell:bower',
 			'build:dependencies:php',
 			'build:fonts',
-			'build:css',
 			'build:images',
+			'build:css',
 			'build:js',
 			'clean:bowercomponents',
 			'build:i18n'
 		],
-		'build:dev': [
+		'build:dist': [
+			'readpkg',
+			'clean',
+			'shell:bower',
+			'build:dependencies:php',
 			'build:fonts',
-			'build:css',
 			'build:images',
-			'build:js'
+			'build:css:dist',
+			'build:js:dist',
+			'clean:bowercomponents',
+			'build:i18n'
 		],
 		'build:dependencies': [
 			'build:dependencies:css',
@@ -25,6 +31,7 @@ module.exports = function() {
 			'build:dependencies:js',
 			'build:dependencies:php'
 		],
+
 		'build:i18n': [
 			'clean:languages',
 			'addtextdomain',
@@ -43,7 +50,7 @@ module.exports = function() {
 			'compress'
 		],
 		'package:dist': [
-			'build',
+			'build:dist',
 			'compress:dist'
 		],
 		'package:dev': [
