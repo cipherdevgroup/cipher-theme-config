@@ -2,7 +2,6 @@ module.exports = function() {
 	'use strict';
 	var tasks = {
 		'build': [
-			'readpkg',
 			'clean',
 			'shell:bower',
 			'build:dependencies:php',
@@ -14,7 +13,6 @@ module.exports = function() {
 			'build:i18n'
 		],
 		'build:dist': [
-			'readpkg',
 			'clean',
 			'shell:bower',
 			'build:dependencies:php',
