@@ -11,6 +11,14 @@ module.exports = {
 			'build:js'
 		]
 	},
+	images: {
+		files: [
+			'<%= paths.authorAssets %>images/**/*'
+		],
+		tasks: [
+			'build:images'
+		]
+	},
 	php: {
 		files: [
 			'<%= files.php %>'
