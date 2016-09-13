@@ -33,7 +33,6 @@
     "grunt-contrib-imagemin": "1.x",
     "grunt-contrib-uglify": "2.x",
     "grunt-contrib-watch": "1.x",
-    "grunt-jsbeautifier": "0.x",
     "grunt-newer": "1.x",
     "grunt-postcss": "0.x",
     "grunt-potomo": "3.x",
