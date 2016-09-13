@@ -1,7 +1,6 @@
 // https://github.com/sindresorhus/grunt-sass
 module.exports = {
 	options: {
-		includePaths: require( 'node-neat' ).includePaths,
 		sourceMap: true,
 		outputStyle: 'expanded'
 	},
