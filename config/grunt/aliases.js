@@ -29,7 +29,6 @@ module.exports = function() {
 			'build:dependencies:js',
 			'build:dependencies:php'
 		],
-
 		'build:i18n': [
 			'clean:languages',
 			'addtextdomain',

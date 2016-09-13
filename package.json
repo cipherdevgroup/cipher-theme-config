@@ -35,7 +35,6 @@
     "grunt-contrib-watch": "1.x",
     "grunt-newer": "1.x",
     "grunt-postcss": "0.x",
-    "grunt-potomo": "3.x",
     "grunt-replace": "1.x",
     "grunt-rtlcss": "2.x",
     "grunt-sass": "1.x",
