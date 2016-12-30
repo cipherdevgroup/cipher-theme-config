@@ -3,6 +3,7 @@ module.exports = {
 	theme: {
 		options: {
 			domainPath: '<%= paths.languages %>',
+			updateTimestamp: false,
 			exclude: [
 				'<%= paths.composer %>.*'
 			],
