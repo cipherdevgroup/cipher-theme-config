@@ -9,10 +9,15 @@ module.exports = function() {
 		config:       'config/',
 		assets:       'assets/',
 		dist:         'dist/',
-		docs:         'docs/',
+		css:          'css/',
+		cssSrc:       'assets/theme/scss/',
+		js:           'js/',
+		jsSrc:        'assets/theme/js/',
+		images:       'images/',
+		imagesSrc:    'assets/theme/images/',
+		fonts:        'fonts/',
+		fontsSrc:     'assets/theme/fonts/',
 		languages:    'languages/',
-		tmp:          'tmp/',
-		authorAssets: 'assets/theme/',
 		bower:        'assets/bower/',
 		composer:     'assets/composer/',
 		grunt:        'config/grunt/',
@@ -33,9 +38,9 @@ module.exports = function() {
 	};
 
 	project.files = {
-		js:     project.paths.authorAssets + 'js/**/*.js',
-		scss:   project.paths.authorAssets + 'scss/**/*.scss',
-		config: project.paths.config       + '**/*.js',
+		js:     project.paths.jsSrc  + '**/*.js',
+		scss:   project.paths.cssSrc + '**/*.scss',
+		config: project.paths.config + '**/*.js',
 		changelog: 'CHANGELOG.md'
 	};
 
@@ -51,10 +56,8 @@ module.exports = function() {
 		'!images/**',
 		'!js/**',
 		'!languages/**',
-		'!logs/**',
 		'!bower_components/**',
-		'!node_modules/**',
-		'!tmp/**'
+		'!node_modules/**'
 	];
 
 	return project;
