@@ -1,20 +1,5 @@
 // https://github.com/gruntjs/grunt-contrib-clean
 module.exports = {
-	bower: {
-		src: [
-			'<%= paths.bower %>'
-		]
-	},
-	bowercomponents: {
-		src: [
-			'bower_components/'
-		]
-	},
-	composer: {
-		src: [
-			'<%= paths.composer %>'
-		]
-	},
 	css: {
 		src: [
 			'css/'
