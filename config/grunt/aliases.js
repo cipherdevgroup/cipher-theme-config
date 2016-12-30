@@ -3,24 +3,20 @@ module.exports = function() {
 	var tasks = {
 		'build': [
 			'clean',
-			'shell:bower',
 			'build:dependencies:php',
 			'build:fonts',
 			'build:images',
 			'build:css',
 			'build:js',
-			'clean:bowercomponents',
 			'build:i18n'
 		],
 		'build:dist': [
 			'clean',
-			'shell:bower',
 			'build:dependencies:php',
 			'build:fonts',
 			'build:images',
 			'build:css:dist',
 			'build:js:dist',
-			'clean:bowercomponents',
 			'build:i18n'
 		],
 		'build:dependencies': [
