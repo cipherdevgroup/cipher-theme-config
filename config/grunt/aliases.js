@@ -10,15 +10,6 @@ module.exports = function() {
 			'build:js',
 			'build:i18n'
 		],
-		'build:dist': [
-			'clean',
-			'build:dependencies:php',
-			'build:fonts',
-			'build:images',
-			'build:css:dist',
-			'build:js:dist',
-			'build:i18n'
-		],
 		'build:dependencies': [
 			'build:dependencies:css',
 			'build:dependencies:fonts',
@@ -41,10 +32,6 @@ module.exports = function() {
 		'package': [
 			'build',
 			'compress'
-		],
-		'package:dist': [
-			'build:dist',
-			'compress:dist'
 		],
 		'package:dev': [
 			'build',
