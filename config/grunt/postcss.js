@@ -42,11 +42,11 @@ module.exports = {
 		]
 	},
 	style: {
-		src: '<%= paths.tmp %>style.css',
-		dest: '<%= paths.tmp %>style.css'
+		src: 'style.css',
+		dest: 'style.css'
 	},
 	editorStyle: {
-		src: '<%= paths.tmp %>editor-style.css',
-		dest: '<%= paths.tmp %>editor-style.css'
+		src: '<%= paths.css %>editor-style.css',
+		dest: '<%= paths.css %>editor-style.css'
 	}
 };

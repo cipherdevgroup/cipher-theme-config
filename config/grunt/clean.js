@@ -2,7 +2,7 @@
 module.exports = {
 	css: {
 		src: [
-			'css/'
+			'<%= paths.css %>'
 		]
 	},
 	dist: {
@@ -10,14 +10,9 @@ module.exports = {
 			'<%= paths.dist %>'
 		]
 	},
-	docs: {
-		src: [
-			'<%= paths.docs %>'
-		]
-	},
 	fonts: {
 		src: [
-			'fonts/'
+			'<%= paths.fonts %>'
 		]
 	},
 	php: {
@@ -25,35 +20,24 @@ module.exports = {
 			'includes/vendor/'
 		]
 	},
-	logs: {
-		src: [
-			'logs/'
-		]
-	},
-	tmp: {
-		src: [
-			'<%= paths.tmp %>'
-		]
-	},
 	js: {
 		src: [
-			'js/'
+			'<%= paths.js %>'
 		]
 	},
 	images: {
 		src: [
-			'images/'
+			'<%= paths.images %>'
 		]
 	},
 	languages: {
 		src: [
-			'languages/'
+			'<%= paths.languages %>'
 		]
 	},
 	style: {
 		src: [
-			'style*.*',
-			'<%= paths.tmp %>style*.*'
+			'style*.*'
 		]
 	},
 	screenshot: {

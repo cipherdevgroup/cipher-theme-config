@@ -3,7 +3,7 @@ module.exports = {
 	theme: {
 		options: {
 			sourceMap: true,
-			sourceMapName: 'js/theme.js.map',
+			sourceMapName: '<%= paths.js %>theme.js.map',
 			sourceMapIncludeSources: true,
 			mangle: true,
 			compress: true,
@@ -12,12 +12,12 @@ module.exports = {
 		files: [
 			{
 				expand: true,
-				cwd: 'js/',
+				cwd: '<%= paths.js %>',
 				src: [
 					'*.js',
 					'!*.min.js'
 				],
-				dest: 'js/',
+				dest: '<%= paths.js %>',
 				ext: '.min.js',
 				extDot: 'last'
 			}

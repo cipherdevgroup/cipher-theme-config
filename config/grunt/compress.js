@@ -15,9 +15,7 @@ module.exports = {
 					'!assets/**',
 					'!config/**',
 					'!dist/**',
-					'!logs/**',
 					'!node_modules/**',
-					'!tmp/**',
 					'!*.sublime*',
 					'!.DS_Store',
 					'!.gitattributes',
@@ -45,8 +43,6 @@ module.exports = {
 					'!node_modules/**',
 					'!.sass-cache/**',
 					'!dist/**',
-					'!logs/**',
-					'!tmp/**',
 					'!*.sublime*',
 					'!.DS_Store'
 				], // Take this...

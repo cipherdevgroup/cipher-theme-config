@@ -5,11 +5,11 @@ module.exports = {
 		outputStyle: 'expanded'
 	},
 	style: {
-		src: '<%= paths.authorAssets %>scss/style.scss',
-		dest: '<%= paths.tmp %>style.css'
+		src: '<%= paths.cssSrc %>style.scss',
+		dest: 'style.css'
 	},
 	editorStyle: {
-		src: '<%= paths.authorAssets %>scss/editor-style.scss',
-		dest: '<%= paths.tmp %>editor-style.css'
+		src: '<%= paths.cssSrc %>editor-style.scss',
+		dest: '<%= paths.css %>editor-style.css'
 	}
 };

@@ -13,7 +13,7 @@ module.exports = {
 	},
 	images: {
 		files: [
-			'<%= paths.authorAssets %>images/**/*'
+			'<%= paths.imagesSrc %>**/*'
 		],
 		tasks: [
 			'build:images'
@@ -33,7 +33,7 @@ module.exports = {
 			'sass:style',
 			'postcss:style',
 			'rtlcss:style',
-			'cssmin:theme',
+			'cssmin:style',
 			'copy:css'
 		]
 	}

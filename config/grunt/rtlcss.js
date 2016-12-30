@@ -8,7 +8,7 @@ module.exports = {
 		map: true
 	},
 	style: {
-		src: '<%= paths.tmp %>style.css',
-		dest: '<%= paths.tmp %>style-rtl.css'
+		src: 'style.css',
+		dest: 'style-rtl.css'
 	}
 };

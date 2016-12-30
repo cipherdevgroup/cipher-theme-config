@@ -3,8 +3,8 @@ module.exports = {
 	options: {
 		config: 'alphabetical'
 	},
-	css: {
+	style: {
 		expand: true,
-		src: [ '<%= paths.tmp %>style.css' ]
+		src: [ 'style.css' ]
 	}
 };
