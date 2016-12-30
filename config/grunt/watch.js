@@ -33,8 +33,7 @@ module.exports = {
 			'sass:style',
 			'postcss:style',
 			'rtlcss:style',
-			'cssmin:style',
-			'copy:css'
+			'cssmin:style'
 		]
 	}
 };
