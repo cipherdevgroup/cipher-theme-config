@@ -1,8 +1,16 @@
 // https://github.com/gruntjs/grunt-contrib-cssmin
 module.exports = {
 	style: {
-		src: 'style.css',
-		dest: 'style.min.css'
+		files: [
+			{
+				src: 'style.css',
+				dest: 'style.min.css'
+			},
+			{
+				src: 'style-rtl.css',
+				dest: 'style-rtl.min.css'
+			}
+		]
 	},
 	vendor: {
 		expand: true,
