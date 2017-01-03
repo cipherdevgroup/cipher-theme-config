@@ -1,3 +1,12 @@
+## 3.0.0
+
+- Bumped all dependencies to the latest version
+- Removed some unused aliases
+- Changed default directory structure
+- Removed grunt-shell
+- Removed Bower dependency
+- Removed Composer dependency
+
 ## 2.1.0
 
 - Bumped Grunt and other dependencies to the latest version
