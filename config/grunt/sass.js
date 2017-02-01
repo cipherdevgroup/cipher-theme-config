@@ -2,7 +2,9 @@
 module.exports = {
 	options: {
 		sourceMap: true,
-		outputStyle: 'expanded'
+		outputStyle: 'expanded',
+		indentType: 'tab',
+		indentWidth: 1
 	},
 	style: {
 		src: '<%= paths.cssSrc %>style.scss',
