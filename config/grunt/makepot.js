@@ -10,7 +10,9 @@ module.exports = {
 				'language': 'en',
 				'plural-forms': 'nplurals=2; plural=(n != 1);',
 				'poedit': true,
-				'report-msgid-bugs-to': 'https://www.wpsitecare.com/contact/'
+				'report-msgid-bugs-to': 'https://www.wpsitecare.com/contact/',
+				'language-team': 'WP Site Care <hello@wpsitecare.com>',
+				'last-translator': 'WP Site Care <hello@wpsitecare.com>'
 			},
 			processPot: function( pot ) {
 				var translation,
