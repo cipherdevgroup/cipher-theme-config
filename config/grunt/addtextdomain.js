@@ -1,14 +1,15 @@
-// https://github.com/blazersix/grunt-wp-i18n
+// https://github.com/cedaro/grunt-wp-i18n
 module.exports = {
 	options: {
-		textdomain: '<%= package.textdomain %>',
-		updateDomains: [ 'all' ]
+		textdomain: '<%= package.textdomain %>'
 	},
 	php: {
-		files: {
-			src: [
-				'<%= files.php %>'
-			]
-		}
+		options: {
+			updateDomains: [ 'all' ]
+		},
+		expand: true,
+		src: [
+			'<%= files.php %>'
+		]
 	}
 };
