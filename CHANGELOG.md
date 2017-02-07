@@ -1,3 +1,9 @@
+## 3.1.0
+
+- Bumped all dependencies to the latest version
+- Updated config files for addtextdomain and makepot
+- Changed grunt-sass to use tabs for indentation
+
 ## 3.0.0
 
 - Bumped all dependencies to the latest version
