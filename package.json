@@ -29,7 +29,7 @@
     "grunt-contrib-concat": "1.x",
     "grunt-contrib-compress": "1.x",
     "grunt-contrib-copy": "1.x",
-    "grunt-contrib-cssmin": "1.x",
+    "grunt-contrib-cssmin": "2.x",
     "grunt-contrib-imagemin": "1.x",
     "grunt-contrib-uglify": "2.x",
     "grunt-contrib-watch": "1.x",
