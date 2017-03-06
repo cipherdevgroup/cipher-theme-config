@@ -18,7 +18,6 @@ module.exports = function() {
 		fonts:     'fonts/',
 		fontsSrc:  'assets/theme/fonts/',
 		languages: 'languages/',
-		bower:     'assets/bower/',
 		composer:  'assets/composer/',
 		node:      'node_modules/',
 		grunt:     'config/grunt/',
