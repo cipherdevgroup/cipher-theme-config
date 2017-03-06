@@ -6,22 +6,27 @@ module.exports = function() {
 		project = {};
 
 	project.paths = {
-		config:    'config/',
-		assets:    'assets/',
-		dist:      'dist/',
-		css:       'css/',
-		cssSrc:    'assets/theme/scss/',
-		js:        'js/',
-		jsSrc:     'assets/theme/js/',
-		images:    'images/',
-		imagesSrc: 'assets/theme/images/',
-		fonts:     'fonts/',
-		fontsSrc:  'assets/theme/fonts/',
-		languages: 'languages/',
-		composer:  'assets/composer/',
-		node:      'node_modules/',
-		grunt:     'config/grunt/',
-		tasks:     'tasks/'
+		config:     'config/',
+		assets:     'assets/',
+		dist:       'dist/',
+		css:        'css/',
+		cssSrc:     'assets/theme/scss/',
+		cssVend:    'assets/theme/scss/vendor/',
+		js:         'js/',
+		jsSrc:      'assets/theme/js/',
+		jsVend:     'assets/theme/js/vendor/',
+		images:     'images/',
+		imagesSrc:  'assets/theme/images/',
+		imagesVend: 'assets/theme/images/vendor/',
+		fonts:      'fonts/',
+		fontsSrc:   'assets/theme/fonts/',
+		fontsVend:  'assets/theme/fonts/vendor/',
+		phpVend:    'includes/vendor/',
+		languages:  'languages/',
+		composer:   'assets/composer/',
+		node:       'node_modules/',
+		grunt:      'config/grunt/',
+		tasks:      'tasks/'
 	};
 
 	project.paths.global = {
