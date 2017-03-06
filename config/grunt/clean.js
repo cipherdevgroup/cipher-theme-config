@@ -2,32 +2,33 @@
 module.exports = {
 	css: {
 		src: [
-			'<%= paths.css %>'
-		]
-	},
-	dist: {
-		src: [
-			'<%= paths.dist %>'
+			'<%= paths.css %>',
+			'<%= paths.cssVend %>',
+			'style*.*'
 		]
 	},
 	fonts: {
 		src: [
-			'<%= paths.fonts %>'
+			'<%= paths.fonts %>',
+			'<%= paths.fontsVend %>'
 		]
 	},
 	php: {
 		src: [
-			'includes/vendor/'
+			'<%= paths.phpVend %>'
 		]
 	},
 	js: {
 		src: [
-			'<%= paths.js %>'
+			'<%= paths.js %>',
+			'<%= paths.jsVend %>'
 		]
 	},
 	images: {
 		src: [
-			'<%= paths.images %>'
+			'<%= paths.images %>',
+			'<%= paths.imagesVend %>',
+			'screenshot.png'
 		]
 	},
 	languages: {
@@ -35,14 +36,9 @@ module.exports = {
 			'<%= paths.languages %>'
 		]
 	},
-	style: {
+	dist: {
 		src: [
-			'style*.*'
-		]
-	},
-	screenshot: {
-		src: [
-			'screenshot.png'
+			'<%= paths.dist %>'
 		]
 	}
 };
