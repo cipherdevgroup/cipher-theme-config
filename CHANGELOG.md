@@ -1,3 +1,8 @@
+## 4.0.0
+
+- Dropped support for Bower in favor of using npm for all asset dependencies
+- Added some extra path variables
+
 ## 3.1.0
 
 - Bumped all dependencies to the latest version
