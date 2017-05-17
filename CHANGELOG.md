@@ -1,3 +1,8 @@
+## 4.1.0
+
+- Bumped Autoprefixer to 7.x
+- Bumped grunt-contrib-uglify to 3.x
+
 ## 4.0.0
 
 - Dropped support for Bower in favor of using npm for all asset dependencies
