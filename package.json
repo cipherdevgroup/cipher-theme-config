@@ -23,7 +23,7 @@
     "url": "https://github.com/wpsitecare/sitecare-theme-config.git"
   },
   "dependencies": {
-    "autoprefixer": "6.x",
+    "autoprefixer": "7.x",
     "grunt": "~1.x",
     "grunt-contrib-clean": "1.x",
     "grunt-contrib-concat": "1.x",
@@ -31,7 +31,7 @@
     "grunt-contrib-copy": "1.x",
     "grunt-contrib-cssmin": "2.x",
     "grunt-contrib-imagemin": "1.x",
-    "grunt-contrib-uglify": "2.x",
+    "grunt-contrib-uglify": "3.x",
     "grunt-contrib-watch": "1.x",
     "grunt-newer": "1.x",
     "grunt-postcss": "0.x",
