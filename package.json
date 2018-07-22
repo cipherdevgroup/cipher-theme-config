@@ -41,6 +41,7 @@
     "grunt-version": "1.x",
     "grunt-wp-i18n": "1.x",
     "postcss-pxtorem": "4.x",
-    "time-grunt": "1.x"
+    "time-grunt": "1.x",
+    "sass": "1.x"
   }
 }
