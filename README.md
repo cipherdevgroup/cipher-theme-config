@@ -1,9 +1,9 @@
-# WP Site Care WordPress Theme Config
+# Cipher WordPress Theme Config
 
-[![Dependency Status](https://david-dm.org/wpsitecare/sitecare-theme-config.svg)](https://david-dm.org/wpsitecare/sitecare-theme-config)
+[![Dependency Status](https://david-dm.org/cipherdevgroup/cipher-theme-config.svg)](https://david-dm.org/cipherdevgroup/cipher-theme-config)
 
 __Contributors:__ [Robert Neu](https://github.com/robneu), [Brady Vercher](https://github.com/bradyvercher), [Chris Talkington](https://github.com/ctalkington)  
 __Requires:__ WordPress  
-__License:__ [MIT](http://wpsitecare.mit-license.org/)  
+__License:__ [MIT](http://mit-license.org/)  
 
-A reusable grunt configuration for WP Site Care WordPress themes.
+A reusable grunt configuration for Cipher WordPress themes.

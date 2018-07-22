@@ -1,17 +1,17 @@
 {
-  "name": "sitecare-theme-config",
+  "name": "cipher-theme-config",
   "version": "4.1.0",
-  "description": "WP Site Care's default Grunt configuration for WordPress themes.",
+  "description": "Cipher's default Grunt configuration for WordPress themes.",
   "main": "index.js",
   "license": "MIT",
   "contributors": [
     {
       "name": "Brady Vercher",
-      "url": "http://www.cedaro.com/"
+      "url": "https://www.cedaro.com/"
     },
     {
       "name": "Robert Neu",
-      "url": "http://www.wpsitecare.com"
+      "url": "https://cipherdevelopment.com"
     },
     {
       "name": "Chris Talkington",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wpsitecare/sitecare-theme-config.git"
+    "url": "https://github.com/cipherdevgroup/cipher-theme-config.git"
   },
   "dependencies": {
     "autoprefixer": "9.x",

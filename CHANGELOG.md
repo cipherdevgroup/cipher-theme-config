@@ -30,7 +30,7 @@
 
 ## 2.0.0
 
-This is a pretty large update. Some features have been removed and a few new ones have been added. There are a couple breaking changes in this update, so any themes using an older version of the config will need to be adjusted. Check out [Alpha](https://github.com/wpsitecare/alpha) for a working example of how to implement the config. Here's a breakdown of the changes:
+This is a pretty large update. Some features have been removed and a few new ones have been added. There are a couple breaking changes in this update, so any themes using an older version of the config will need to be adjusted. Check out [Alpha](https://github.com/cipherdevgroup/alpha) for a working example of how to implement the config. Here's a breakdown of the changes:
 
 - Removed grunt-banner
 - Removed grunt-checktextdomain
