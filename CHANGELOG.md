@@ -1,3 +1,7 @@
+## 6.0.1
+
+- Fixed issue with updated version of Autoprefixer and browserlist. Let the theme decide what browsers to support.
+
 ## 6.0.0
 
 - Bumped all dependencies to latest version

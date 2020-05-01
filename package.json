@@ -1,6 +1,6 @@
 {
   "name": "cipher-theme-config",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "Cipher's default Grunt configuration for WordPress themes.",
   "main": "index.js",
   "license": "MIT",
