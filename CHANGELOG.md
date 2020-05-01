@@ -1,3 +1,7 @@
+## 6.0.0
+
+- Bumped all dependencies to latest version
+
 ## 5.0.0
 
 - Bumped all dependencies to the latest version
