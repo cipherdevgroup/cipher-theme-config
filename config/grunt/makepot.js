@@ -4,7 +4,8 @@ module.exports = {
 		options: {
 			domainPath: '<%= paths.languages %>',
 			exclude: [
-				'<%= paths.composer %>.*'
+				'<%= paths.composer %>.*',
+				'<%= paths.node %>.*'
 			],
 			potHeaders: {
 				'language': 'en',
