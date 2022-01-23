@@ -23,7 +23,7 @@
     "url": "https://github.com/cipherdevgroup/cipher-theme-config.git"
   },
   "dependencies": {
-    "autoprefixer": "10.x",
+    "autoprefixer": "9.x",
     "grunt": "~1.x",
     "grunt-contrib-clean": "2.x",
     "grunt-contrib-compress": "2.x",
@@ -41,7 +41,7 @@
     "grunt-version": "3.x",
     "grunt-wp-i18n": "1.x",
     "sass": "1.x",
-    "postcss-pxtorem": "6.x",
+    "postcss-pxtorem": "5.x",
     "time-grunt": "1.x"
   }
 }
