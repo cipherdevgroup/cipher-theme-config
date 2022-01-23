@@ -40,7 +40,7 @@
     "grunt-sass": "3.x",
     "grunt-version": "1.x",
     "grunt-wp-i18n": "1.x",
-    "node-sass": "4.x",
+    "sass": "1.x",
     "postcss-pxtorem": "5.x",
     "time-grunt": "1.x"
   }
